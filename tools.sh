@@ -115,7 +115,7 @@ case $option in
 	;;
 	7)install_john
 	;;
-	8)echo -e  "\n${redColour}Saliendo...${endColour}\n"  
+	8) echo -e  "\n${redColour}Saliendo...${endColour}\n"  
 	  break			 
 esac
 done
