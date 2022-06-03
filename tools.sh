@@ -83,8 +83,6 @@ function install_john(){
 
 
 
-
-
 #Menu principal
 
 while true :
