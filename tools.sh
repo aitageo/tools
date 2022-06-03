@@ -38,9 +38,10 @@ read -p "Tienes instalado pip3 (y) (n)" option
 case $option in 
     y)sudo -S  apt-get install python3-pip
 		;;
-		n)sudo -S  pip3 install crackmapexec
+    n)sudo -S  pip3 install crackmapexec
 		;;
-		esac 
+	esac
+	
 }
 
 function install_fping(){
